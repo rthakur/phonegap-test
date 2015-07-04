@@ -2,28 +2,29 @@
 
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "digitalfox.co:demo"
+        id        = "iSSAudits.com:01"
         version   = "1.0">
 
-    <name>Digital Fox</name>
+    <name>iSSAudits</name>
 
     <description>
-       Test app for Digitalfox
+      iSS Audits
     </description>
 
-    <author href="http://digitalfox.co" email="rthakur.dev@gmail.com">
+    <author href="issaudits.com" email="rthakur.dev@gmail.com">
        Support
     </author>
     <preference name="permissions" value="none"/>
-    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="ldpi" />
-    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="mdpi" />
-    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="hdpi" />
-    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
-    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
-    <icon src="icons/icon.png" gap:platform="ios" gap:qualifier=""/>
+    <icon src="res/icon/android/drawable-ldpi/tp_icon.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="res/icon/android/drawable-mdpi/tp_icon.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="res/icon/android/drawable-hdpi/tp_icon.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="res/icon/android/drawable-xhdpi/tp_icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="res/icon/android/drawable-xxhdpi/tp_icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
     
-    <icon src="icons/icon.png" gap:platform="ios" width="57" height="57" />
-    <icon src="icons/icon.png" gap:platform="ios" width="72" height="72" />
-    <icon src="icons/icon.png" gap:platform="ios" width="114" height="114" />
-    <icon src="icons/icon.png" gap:platform="ios" width="144" height="144" />
+    <icon src="res/icon/ios/Icon-72.png" gap:platform="ios" gap:qualifier=""/>
+    
+    <icon src="res/icon/ios/icon-57.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
 </widget>
