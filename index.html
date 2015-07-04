@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script>
+	$.ajax({
+	url:'http://digitalfox.co/api.php',
+	success:function(data){
+		$('#content').html(data);
+		}
+	});
+</script>
+</head>
+<div id="content"><center>Loading...</center></div>
+</html>
