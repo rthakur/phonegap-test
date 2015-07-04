@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "digitalfox.co:demo"
+        version   = "1.0">
+
+    <name>Digital Fox</name>
+
+    <description>
+       Test app for Digitalfox
+    </description>
+
+    <author href="http://digitalfox.co" email="rthakur.dev@gmail.com">
+       Support
+    </author>
+    <preference name="permissions" value="none"/>
+    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="ldpi" />
+    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="mdpi" />
+    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="hdpi" />
+    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="xhdpi" />
+    <icon src="icons/icon.png" gap:platform="android" gap:qualifier="xxhdpi" />
+    <icon src="icons/icon.png" gap:platform="ios" gap:qualifier=""/>
+    
+    <icon src="icons/icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icons/icon.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icons/icon.png" gap:platform="ios" width="114" height="114" />
+    <icon src="icons/icon.png" gap:platform="ios" width="144" height="144" />
+</widget>
